@@ -1,0 +1,24 @@
+header {
+    text-align:center; /* Centrar texto*/
+    background-color: #2D3436; /* Gris carbón elegante */
+}
+header:hover{
+    background-color:blueviolet
+}
+h1 {
+    color: #FAB1A0; /* Salmón suave */
+}
+
+main {
+    background-color: #636E72; /* Gris medio moderno */
+}
+main:hover{
+    background-color: #2D3436;}
+h2 {
+    color: #81ECEC; /* Turquesa pastel */
+}
+
+p {
+    color: #A29BFE; /* Lavanda suave */
+}
+p:hover{background-color: aqua;}
