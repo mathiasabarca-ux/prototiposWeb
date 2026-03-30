@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <header>
+        <h1>formularios HTML - Ejemplos</h1>
+        <hr>
+    </header>
+    <main>
+        <h2>Formulario de registro</h2>
+        <p>Completa los siguientes datos: </p>
+        <!--Etiqueta para creear un fornulario-->
+        <form>
+        <label>Nombre: </label> <!--Etiqueta que describe al campo-->
+        <input type="text" name="nombre" placeholder="Ejemplo: dea"></imput> <!--Campo de texto-->
+        <br>
+        <label>Correo electronico: </label>
+        <input type="email" name="correo" placeholder="dea123@gmail.com"></imput>
+        <br><br>
+        <label>contraseña:</label>
+        <input type="password" name="password"> <!--formato contraseña-->
+        <br><br>
+        <label">Edad</label>
+        <input type="number" name="edad"> <!--admite solo numeros-->
+        <br><br>
+        <label>Fecha de nacimiento:</label>
+        <input type="date" name="fechaNac"> <!--formato fecha-->
+        <br><br>
+        <label>Genero</label>
+        <input type="radio" name="genero" value="masculino"><!--elemnto de seleccion unica-->
+        masculino
+        <input type="radio" name="genero" value="Femenino">
+        Femenino 
+        <br><br>
+        <label>Intereses</label><br>
+        <input type="checkbox" name="Intereses" value="musica"><!--elemento de seleccion multiple-->
+        musica <br>
+        <input type="checkbox" name="Intereses" value="deporte">
+        deporte <br>
+        <input type="checkbox" name="Intereses" value="peliculas">
+        peliculas
+        <br><br>
+        <label>Ciudad:</label><br>
+        <select name="Ciudad"><!--lista desplegable de opciones-->
+        <option>Santiago</option>
+        <option>valparaiso</option>
+        <option>coquimbo</option>
+        <option>arica</option>
+        </select>
+        <br><br>
+        <label>Comentarios</label><br>
+        <textarea name="comentarios" rows="4" cols="30"></textarea><!--elemento de texto largo-->
+        <br><br>
+        <label>subir archivo</label>
+        <input type="file" name="archivo">
+        <br><br>
+        <label>color favorito</label>
+        <input type="color" name="color">
+        <br><br>
+        <label for="nivel de satisfaccion"></label><br>
+        <input type="range" name="satisfaccion" min="1" max="7">
+        <br><br>
+        <input type="submit" value="Enviar"><!--boton para enviar-->
+        <input type="reset" value="Linpiar"><!--boton ´para linpiar-->
+        <br><br>
+        </form>
+        <!--creacion de tabla con datos-->
+        <h2>Tabla de usuarios</h2>
+        <table border="1"><!--creasr tabla con borde-->
+        <tr>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Felipe</td><!--datos de la tabla-->
+            <td>felipepipeño@gmail.com</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>El_Cacas</td>
+            <td>diarrea234@gmail.com</td>
+            <td>17</td>
+        </tr>
+            </table>
+    </main>
+</body>
+</html>
